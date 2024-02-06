@@ -52,11 +52,12 @@
     //     margin-top: -18rem;
     // }
     .background-rectangle {
-        
         box-sizing: border-box;
-        width: 1800px;
-        height: 1300px; /* Ocupa toda la altura de la página */
+        position: absolute;
+        height: 800px; /* Ocupa toda la altura de la página */
         background-image: $degradeBackground; /* Agrega la imagen de fondo */
         z-index: -1; /* Coloca el rectángulo detrás del contenido */
-        margin-top: -18rem;
+        margin-top: 60rem;
+        width: 100%;
     }
+    
