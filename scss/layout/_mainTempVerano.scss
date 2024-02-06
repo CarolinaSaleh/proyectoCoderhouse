@@ -1,0 +1,37 @@
+.sectionPrincipalVerano{
+    padding: 6rem 0;
+    h1{
+        margin-top: 0.85rem;
+        font-family: $tipoPrincipal;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    img{
+        margin-top: 0.25rem;
+    }
+}
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5%;
+    margin-top: 0;
+
+
+.card {
+    flex: 1;
+    margin: 5rem; /* Ajusta el margen entre las imágenes */
+}
+
+.card1 img,
+.card2 img {
+    width: 20rem;
+    height: 25rem;
+}
+
+.card3 img {
+    width: 50rem;
+    height: 50rem;
+}
+
+}
