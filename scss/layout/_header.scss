@@ -1,0 +1,218 @@
+// .header-banner{
+//     background-color: #D9D9D9;
+//     text-align: center; 
+//     font-size: 10;   
+//     color: #676666;
+//     font-family: 'Barlow', sans-serif;
+
+// }
+
+// .todoHeader{
+//     background-color: #1E1E1E;
+// }
+
+// // .elHeader{
+// //     top: 0; left: 0; right: 0;
+// //     background-color: #151515;
+// //     padding: .15rem 2%;
+// //     display: flex;
+// //     align-items: center;
+// //     justify-content: space-between;
+// //     z-index: 1000;
+// //     box-shadow: 0 .5rem 10rem rgba(0, 0, 0,.1);
+// // }
+
+// // .elNombre{
+// //     font-size: 2.2rem;
+// //     color: #FFFFFF;
+// //     font-weight: bolder;
+// //     text-decoration: none;
+// //     margin-left: 5.5rem; 
+// // } 
+
+// // .menu img{
+// //     width: 1.4375rem;
+// //     height: 1.4375rem;
+// //     border-radius: .9rem;
+// //     cursor: pointer; 
+// //     size: 1.25rem;
+// //     margin-left: -0.625rem;
+// // }
+
+// // .menuDrop a{
+// //     background-color: #151515;
+// //     color: #FFFFFF;
+// // }
+
+// // .lupa img{
+// //     width: 1.375rem;
+// //     height: 1.375rem;
+// //     margin: 1.25rem;
+// //     cursor: pointer;
+// // }
+
+// // .user img{
+// //     width: 1.375rem;
+// //     height: 1.375rem; 
+// //     margin: 1.25rem; 
+// //     cursor: pointer;  
+// // }
+
+// // .bolso img{
+// //     width: 1.375rem;
+// //     height: 1.375rem;
+// //     margin: 1.25rem; 
+// //     cursor: pointer;    
+// // }
+.header-banner{
+    background-color: #D9D9D9;
+    text-align: center; 
+    font-size: 10;   
+    color: #4b9289;
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    width: 100%;
+    letter-spacing: .0625rem;
+}
+
+.navbar {
+    background-color: #b0dad1a9;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+.contenedorDelNav a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo {
+    font-size: 1.875rem;
+    color:$textoBlanco;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s color;
+    font-weight: 800;
+    letter-spacing: .0938rem;
+}
+
+.navbar-nav .nav-link {
+    color:#08242b;
+    position: relative;
+    font-weight: 500;
+}
+.nav-link :hover, .nav-link :active{
+    color:#000f13 ;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 0;
+    height: .4375rem;
+    background-color: #2a6270a9;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover:before, .nav-link:active::before{
+    width: 100%;
+    visibility: visible;
+}
+.nav-link {
+    color: $textoBlanco;
+    font-weight: 700;
+    border-radius: 5rem; 
+    font-family: $tipoPrincipal;
+}
+.login-button {
+    background-color:$colorSolidoPrincipal;
+    color:$textoBlanco;
+    font-size: .875rem;
+    padding: .5rem 1.25rem;
+    border-radius: 3.125rem;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    font-family: $tipoPrincipal;
+    font-weight: 600;
+    letter-spacing: .0938rem;
+}
+.login-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.582);
+   }
+   
+   .login-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.699);
+   }
+   
+   .login-button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   
+   .login-button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+
+ .el-menu img {
+    height: 1.25rem;
+    outline: none;
+    cursor: pointer; 
+}
+.navbar-toggler {
+    font-size: 1.2rem;
+    outline: none;
+    padding: .5rem 1.25rem;
+    margin-left: -0.875rem;
+    margin-right: 1.25rem;
+}
+  .navbar-toggler:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.582);
+    outline: none;
+   }
+   
+   .navbar-toggler:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.699);
+    color: none;
+    outline: none;
+   }
+   
+   .navbar-toggler::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    outline: none;
+   }
+   
+   .navbar-toggler:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+
+.navbar-toggler:focus, .btn-close:focus {
+outline: none;
+box-shadow: none;
+}
+
+

@@ -1,0 +1,19 @@
+@import "./utilities/variable";
+@import "./utilities/mixins";
+@import "./utilities/function";
+@import "./base/resets";
+@import "./base/typography";
+@import "./components/boostrap";
+@import "./components/cards";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/footer";
+@import "./utilities/maps";
+@import "./layout/media/media720";
+@import "./layout/media/media468";
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    overflow-x: hidden;
+}
