@@ -35,3 +35,28 @@
 }
 
 }
+// .cuadradoPrincipal{
+//     box-sizing: border-box;
+//     width: 1800px;
+//     height: 700px;
+//     flex-shrink: 0;
+//     background-image:$degradeBackground;
+//     padding: 5rem;}
+    // .background-rectangle {
+    //     position:relative;
+    //     box-sizing: border-box;
+    //     width: 1800px;
+    //     height: 700px;
+    //     flex-shrink: 0;
+    //     background-image:$degradeBackground;
+    //     margin-top: -18rem;
+    // }
+    .background-rectangle {
+        
+        box-sizing: border-box;
+        width: 1800px;
+        height: 1300px; /* Ocupa toda la altura de la página */
+        background-image: $degradeBackground; /* Agrega la imagen de fondo */
+        z-index: -1; /* Coloca el rectángulo detrás del contenido */
+        margin-top: -18rem;
+    }

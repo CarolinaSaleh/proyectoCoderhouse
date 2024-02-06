@@ -468,6 +468,17 @@
     width: 50rem;
     height: 50rem; }
 
+.background-rectangle {
+  box-sizing: border-box;
+  width: 1800px;
+  height: 1300px;
+  /* Ocupa toda la altura de la página */
+  background-image: linear-gradient(to left top, #136d6d, #528895, #8aa4b4, #bcc1cd, #e3e3e3);
+  /* Agrega la imagen de fondo */
+  z-index: -1;
+  /* Coloca el rectángulo detrás del contenido */
+  margin-top: -18rem; }
+
 footer a.text-body-secondary {
   color: #6c757d !important; }
 
