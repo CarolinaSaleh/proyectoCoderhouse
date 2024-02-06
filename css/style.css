@@ -430,6 +430,15 @@
   .card__form .sign-up:hover {
     opacity: 0.8; }
 
+.nuestraHistoria {
+  padding: 8rem 0; }
+  .nuestraHistoria .elMainDelNos h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-weight: 800; }
+  .nuestraHistoria .elMainDelNos h2 {
+    font-family: "Raleway", sans-serif; }
+
 footer a.text-body-secondary {
   color: #6c757d !important; }
 
