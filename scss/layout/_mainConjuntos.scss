@@ -1,0 +1,153 @@
+.sectionPrincipalConjuntos{
+    padding: 6rem 0;
+    h1{
+        margin-top: 0.85rem;
+        font-family: $tipoPrincipal;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    img{
+        margin-top: 0.25rem;
+    }
+}
+.grid-containerConjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5%;
+    margin-top: 0;
+
+
+.cardConjuntos {
+    flex: 1;
+    margin: 5rem; /* Ajusta el margen entre las imágenes */
+}
+
+.card1 img,
+.card2 img {
+    width: 20rem;
+    height: 25rem;
+}
+
+.card3 img {
+    width: 50rem;
+    height: 50rem;
+}
+
+}
+// .cuadradoPrincipal{
+//     box-sizing: border-box;
+//     width: 1800px;
+//     height: 700px;
+//     flex-shrink: 0;
+//     background-image:$degradeBackground;
+//     padding: 5rem;}
+    // .background-rectangle {
+    //     position:relative;
+    //     box-sizing: border-box;
+    //     width: 1800px;
+    //     height: 700px;
+    //     flex-shrink: 0;
+    //     background-image:$degradeBackground;
+    //     margin-top: -18rem;
+    // }
+    .background-rectangleConjuntos {
+        box-sizing: border-box;
+        position: absolute;
+        height: 690px; /* Ocupa toda la altura de la página */
+        background-image: $degradeBackground; /* Agrega la imagen de fondo */
+        z-index: -1; /* Coloca el rectángulo detrás del contenido */
+        margin-top: 60rem;
+        width: 100%;
+    }
+    .fotisConjuntos img{
+        margin-top: 3rem;
+        margin-bottom: 48px;
+        align-content: center;
+        width: 17rem;
+        height: 21rem;
+    }
+    .cuadradoPrincipalConjuntos{
+    box-sizing: border-box;
+    width: 1800px;
+    height: 700px;
+    flex-shrink: 0;
+    padding: 5rem;
+        h2{
+            color:$textoNegro;
+            font-family:$tipoPrincipal;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 40px; 
+            letter-spacing: 4px;
+        }
+        .slide-contenedorConjuntos{
+            
+            width: 100%;
+            align-items: center;
+            position: absolute;
+            .imagen-sliderConjuntos{
+                width: 100%;
+                height: 37.5rem;
+                position: absolute;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.7s;
+                .slides-divConjuntos{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 1.875rem 0 1.875rem;
+                    img{
+                        position: relative;
+                        width: 15rem;
+                        height: 23.125rem;
+                        transition: .5s;
+                        background: #e0e0e0;
+                        box-shadow: 15px 15px 30px #303030a4,
+                                   -15px -15px 30px #7e7e7e;
+                                   
+                    }
+                    .buttonConjuntos{
+                        position:absolute;
+                        width: 15rem;
+                        height: 23.125rem;
+                        transition: .5s;
+                        
+                    }
+                    
+                }
+                
+            }
+            #slider-span1:target ~ .imagen-sliderConjuntos #img1,
+            #slider-span1:target ~ .imagen-sliderConjuntos #buttonConjuntos-1,
+            #slider-span2:target ~ .imagen-sliderConjuntos #img2,
+            #slider-span2:target ~ .imagen-sliderConjuntos #buttonConjuntos-2,
+            #slider-span3:target ~ .imagen-sliderConjuntos #img3,
+            #slider-span3:target ~ .imagen-sliderConjuntos #buttonConjuntos-3,
+            #slider-span4:target ~ .imagen-sliderConjuntos #img4,
+            #slider-span4:target ~ .imagen-sliderConjuntos #buttonConjuntos-4,
+            #slider-span5:target ~ .imagen-sliderConjuntos #img5,
+            #slider-span5:target ~ .imagen-sliderConjuntos #buttonConjuntos-5,
+            #slider-span6:target ~ .imagen-sliderConjuntos #img6,
+            #slider-span6:target ~ .imagen-sliderConjuntos #buttonConjuntos-6,
+            #slider-span7:target ~ .imagen-sliderConjuntos #img7,
+            #slider-span7:target ~ .imagen-sliderConjuntos #buttonConjuntos-7 {
+                transform: scale(1.2); 
+                z-index: 1; 
+            }
+            
+            #slider-span1:target ~ .imagen-sliderConjuntos {left: 70%;}
+            #slider-span2:target ~ .imagen-sliderConjuntos {left: 50%;}
+            #slider-span3:target ~ .imagen-sliderConjuntos {left: 25%;}
+            #slider-span4:target ~ .imagen-sliderConjuntos {left: 0;}
+            #slider-span5:target ~ .imagen-sliderConjuntos {left: -25%;}
+            #slider-span6:target ~ .imagen-sliderConjuntos {left: -50%;}
+            #slider-span7:target ~ .imagen-sliderConjuntos {left: -70%;}
+            
+            
+        }
+}
