@@ -54,10 +54,100 @@
     .background-rectangle {
         box-sizing: border-box;
         position: absolute;
-        height: 800px; /* Ocupa toda la altura de la página */
+        height: 690px; /* Ocupa toda la altura de la página */
         background-image: $degradeBackground; /* Agrega la imagen de fondo */
         z-index: -1; /* Coloca el rectángulo detrás del contenido */
         margin-top: 60rem;
         width: 100%;
     }
-    
+    .fotis img{
+        margin-top: 3rem;
+        margin-bottom: 48px;
+        align-content: center;
+        width: 17rem;
+        height: 21rem;
+    }
+    .cuadradoPrincipalVerano{
+    box-sizing: border-box;
+    width: 1800px;
+    height: 700px;
+    flex-shrink: 0;
+    padding: 5rem;
+        h2{
+            color:$textoNegro;
+            font-family:$tipoPrincipal;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 40px; 
+            letter-spacing: 4px;
+        }
+        .slide-contenedorVerano{
+            
+            width: 100%;
+            align-items: center;
+            position: absolute;
+            .imagen-sliderVerano{
+                width: 100%;
+                height: 37.5rem;
+                position: absolute;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.7s;
+                .slides-divVerano{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 1.875rem 0 1.875rem;
+                    img{
+                        position: relative;
+                        width: 15rem;
+                        height: 23.125rem;
+                        transition: .5s;
+                        background: #e0e0e0;
+                        box-shadow: 15px 15px 30px #303030a4,
+                                   -15px -15px 30px #7e7e7e;
+                                   
+                    }
+                    .buttonVerano{
+                        position:absolute;
+                        width: 15rem;
+                        height: 23.125rem;
+                        transition: .5s;
+                        
+                    }
+                    
+                }
+                
+            }
+            #slider-span1:target ~ .imagen-sliderVerano #img1,
+            #slider-span1:target ~ .imagen-sliderVerano #buttonVerano-1,
+            #slider-span2:target ~ .imagen-sliderVerano #img2,
+            #slider-span2:target ~ .imagen-sliderVerano #buttonVerano-2,
+            #slider-span3:target ~ .imagen-sliderVerano #img3,
+            #slider-span3:target ~ .imagen-sliderVerano #buttonVerano-3,
+            #slider-span4:target ~ .imagen-sliderVerano #img4,
+            #slider-span4:target ~ .imagen-sliderVerano #buttonVerano-4,
+            #slider-span5:target ~ .imagen-sliderVerano #img5,
+            #slider-span5:target ~ .imagen-sliderVerano #buttonVerano-5,
+            #slider-span6:target ~ .imagen-sliderVerano #img6,
+            #slider-span6:target ~ .imagen-sliderVerano #buttonVerano-6,
+            #slider-span7:target ~ .imagen-sliderVerano #img7,
+            #slider-span7:target ~ .imagen-sliderVerano #buttonVerano-7 {
+                transform: scale(1.2); 
+                z-index: 1; 
+            }
+            
+            #slider-span1:target ~ .imagen-sliderVerano {left: 70%;}
+            #slider-span2:target ~ .imagen-sliderVerano {left: 50%;}
+            #slider-span3:target ~ .imagen-sliderVerano {left: 25%;}
+            #slider-span4:target ~ .imagen-sliderVerano {left: 0;}
+            #slider-span5:target ~ .imagen-sliderVerano {left: -25%;}
+            #slider-span6:target ~ .imagen-sliderVerano {left: -50%;}
+            #slider-span7:target ~ .imagen-sliderVerano {left: -70%;}
+            
+            
+        }
+}
