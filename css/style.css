@@ -562,6 +562,128 @@
     .cuadradoPrincipalVerano .slide-contenedorVerano #slider-span7:target ~ .imagen-sliderVerano {
       left: -70%; }
 
+.sectionPrincipalInvierno {
+  padding: 6rem 0; }
+  .sectionPrincipalInvierno h1 {
+    margin-top: 0.85rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-weight: 800; }
+  .sectionPrincipalInvierno img {
+    margin-top: 0.25rem; }
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5%;
+  margin-top: 0; }
+  .grid-container .cardInvierno {
+    flex: 1;
+    margin: 5rem;
+    /* Ajusta el margen entre las imágenes */ }
+  .grid-container .card1 img,
+  .grid-container .card2 img {
+    width: 20rem;
+    height: 25rem; }
+  .grid-container .card3 img {
+    width: 50rem;
+    height: 50rem; }
+
+.background-rectangleInvierno {
+  box-sizing: border-box;
+  position: absolute;
+  height: 690px;
+  /* Ocupa toda la altura de la página */
+  background-image: linear-gradient(to left top, #136d6d, #528895, #8aa4b4, #bcc1cd, #e3e3e3);
+  /* Agrega la imagen de fondo */
+  z-index: -1;
+  /* Coloca el rectángulo detrás del contenido */
+  margin-top: 60rem;
+  width: 100%; }
+
+.fotisInvierno img {
+  margin-top: 3rem;
+  margin-bottom: 48px;
+  align-content: center;
+  width: 17rem;
+  height: 21rem; }
+
+.cuadradoPrincipalInvierno {
+  box-sizing: border-box;
+  width: 1800px;
+  height: 700px;
+  flex-shrink: 0;
+  padding: 5rem; }
+  .cuadradoPrincipalInvierno h2 {
+    color: #141414;
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 4px; }
+  .cuadradoPrincipalInvierno .slide-contenedorInvierno {
+    width: 100%;
+    align-items: center;
+    position: absolute; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno .imagen-sliderInvierno {
+      width: 100%;
+      height: 37.5rem;
+      position: absolute;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.7s; }
+      .cuadradoPrincipalInvierno .slide-contenedorInvierno .imagen-sliderInvierno .slides-divInvierno {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 1.875rem 0 1.875rem; }
+        .cuadradoPrincipalInvierno .slide-contenedorInvierno .imagen-sliderInvierno .slides-divInvierno img {
+          position: relative;
+          width: 15rem;
+          height: 23.125rem;
+          transition: .5s;
+          background: #e0e0e0;
+          box-shadow: 15px 15px 30px #303030a4, -15px -15px 30px #7e7e7e; }
+        .cuadradoPrincipalInvierno .slide-contenedorInvierno .imagen-sliderInvierno .slides-divInvierno .buttonInvierno {
+          position: absolute;
+          width: 15rem;
+          height: 23.125rem;
+          transition: .5s; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span1:target ~ .imagen-sliderInvierno #img1,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span1:target ~ .imagen-sliderInvierno #buttonInvierno-1,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span2:target ~ .imagen-sliderInvierno #img2,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span2:target ~ .imagen-sliderInvierno #buttonInvierno-2,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span3:target ~ .imagen-sliderInvierno #img3,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span3:target ~ .imagen-sliderInvierno #buttonInvierno-3,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span4:target ~ .imagen-sliderInvierno #img4,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span4:target ~ .imagen-sliderInvierno #buttonInvierno-4,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span5:target ~ .imagen-sliderInvierno #img5,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span5:target ~ .imagen-sliderInvierno #buttonInvierno-5,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span6:target ~ .imagen-sliderInvierno #img6,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span6:target ~ .imagen-sliderInvierno #buttonInvierno-6,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span7:target ~ .imagen-sliderInvierno #img7,
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span7:target ~ .imagen-sliderInvierno #buttonInvierno-7 {
+      transform: scale(1.2);
+      z-index: 1; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span1:target ~ .imagen-sliderInvierno {
+      left: 70%; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span2:target ~ .imagen-sliderInvierno {
+      left: 50%; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span3:target ~ .imagen-sliderInvierno {
+      left: 25%; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span4:target ~ .imagen-sliderInvierno {
+      left: 0; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span5:target ~ .imagen-sliderInvierno {
+      left: -25%; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span6:target ~ .imagen-sliderInvierno {
+      left: -50%; }
+    .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span7:target ~ .imagen-sliderInvierno {
+      left: -70%; }
+
 footer a.text-body-secondary {
   color: #6c757d !important; }
 
