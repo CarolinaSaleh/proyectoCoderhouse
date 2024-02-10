@@ -684,6 +684,102 @@
     .cuadradoPrincipalInvierno .slide-contenedorInvierno #slider-span7:target ~ .imagen-sliderInvierno {
       left: -70%; }
 
+.sectionPrincipalAccesorios {
+  padding: 6rem 0; }
+  .sectionPrincipalAccesorios h1 {
+    margin-top: 0.85rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-weight: 800; }
+  .sectionPrincipalAccesorios img {
+    margin-top: 0.25rem; }
+
+.cardsAccesorios {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .cardsAccesorios .cardAccesorios1, .cardsAccesorios .cardAccesorios2, .cardsAccesorios .cardAccesorios3, .cardsAccesorios .cardAccesorios4 {
+    margin: 1.25rem;
+    width: 220px;
+    height: 284px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: all .4s; }
+    .cardsAccesorios .cardAccesorios1 img, .cardsAccesorios .cardAccesorios2 img, .cardsAccesorios .cardAccesorios3 img, .cardsAccesorios .cardAccesorios4 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .cardsAccesorios .cardAccesorios1::before, .cardsAccesorios .cardAccesorios2::before, .cardsAccesorios .cardAccesorios3::before, .cardsAccesorios .cardAccesorios4::before {
+      content: 'Precio: $20';
+      letter-spacing: 0.2em;
+      position: absolute;
+      bottom: 8px;
+      left: 20px;
+      color: #333333;
+      font-size: 0.8em;
+      font-weight: 700; }
+    .cardsAccesorios .cardAccesorios1 div, .cardsAccesorios .cardAccesorios2 div, .cardsAccesorios .cardAccesorios3 div, .cardsAccesorios .cardAccesorios4 div {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+      cursor: pointer;
+      z-index: 10;
+      transition: all .4s;
+      background-color: #fff; }
+    .cardsAccesorios .cardAccesorios1:hover div, .cardsAccesorios .cardAccesorios2:hover div, .cardsAccesorios .cardAccesorios3:hover div, .cardsAccesorios .cardAccesorios4:hover div {
+      transform: translateY(-30px); }
+  .cardsAccesorios .cardAccesorios2::before {
+    content: 'Precio: $15'; }
+  .cardsAccesorios .cardAccesorios3::before {
+    content: 'Precio: $40'; }
+  .cardsAccesorios .cardAccesorios4::before {
+    content: 'Precio: $20'; }
+
+.grid-containerAccesorios {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5%;
+  margin-top: 0;
+  margin-top: 1.25rem; }
+  .grid-containerAccesorios .cardAccesorios {
+    flex: 1;
+    margin: 5rem; }
+  .grid-containerAccesorios .cardAccesorios-1 img,
+  .grid-containerAccesorios .cardAccesorios-2 img {
+    width: 20rem;
+    height: 25rem; }
+  .grid-containerAccesorios .cardAccesorios-3 img {
+    width: 50rem;
+    height: 50rem; }
+
+.container-accesorios {
+  overflow: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 15px; }
+  .container-accesorios img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .container-accesorios .cardA {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%; }
+  .container-accesorios:hover > :not(:hover) {
+    opacity: 0.2; }
+
 .sectionPrincipalConjuntos {
   padding: 6rem 0; }
   .sectionPrincipalConjuntos h1 {
