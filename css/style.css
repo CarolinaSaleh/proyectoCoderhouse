@@ -905,6 +905,84 @@
 footer a.text-body-secondary {
   color: #6c757d !important; }
 
+@media (max-width: 991px) {
+  html {
+    font-size: 55%; }
+  .iconos {
+    display: block;
+    size: auto; } }
+
+@media (max-width: 800px) {
+  html {
+    font-size: 80%; }
+  .iconos {
+    display: block;
+    size: auto; } }
+
+@media (max-width: 720px) {
+  .iconos {
+    display: block;
+    size: auto; }
+  .coleccion {
+    font-size: 90%; } }
+
+@media (max-width: 468px) {
+  html {
+    font-size: 85%; }
+  .iconos {
+    display: block;
+    size: auto; }
+  .coleccion {
+    font-size: 80%; } }
+
+@media (max-width: 425px) {
+  html {
+    font-size: 80%; }
+  .iconos {
+    display: block;
+    size: 60%; }
+  .header-banner {
+    font-size: 80%; }
+  .menu {
+    margin-right: 0; }
+  .elNombre {
+    font-size: 1.375rem;
+    margin-left: 0; }
+  .coleccion a {
+    font-size: 70%; } }
+
+@media (max-width: 320px) {
+  html {
+    font-size: 80%; }
+  .iconos {
+    display: block;
+    size: 60%; }
+  .header-banner {
+    font-size: 70%; }
+  .menu {
+    margin-right: 0; }
+  .elNombre {
+    font-size: 1.375rem;
+    margin-left: 0; }
+  .coleccion a {
+    font-size: 70%; } }
+
+@media (max-width: 260px) {
+  html {
+    font-size: 70%; }
+  .iconos {
+    display: block;
+    size: 30%; }
+  .menu {
+    margin-right: 0; }
+  .header-banner {
+    font-size: 65%; }
+  .elNombre {
+    font-size: 1rem;
+    margin-left: 0; }
+  .coleccion a {
+    font-size: 70%; } }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;

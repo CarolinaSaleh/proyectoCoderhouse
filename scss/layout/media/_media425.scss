@@ -1,0 +1,22 @@
+@media (max-width:425px) {
+    html{
+        font-size: 80%;
+    }    
+    .iconos{
+        display: block;
+        size: 60%;
+    }
+    .header-banner{
+        font-size: 80%;
+    }
+    .menu{
+        margin-right: 0;
+    }
+    .elNombre{
+        font-size: 1.375rem;
+        margin-left: 0;
+    }
+    .coleccion a{
+        font-size: 70%;
+    }  
+}
