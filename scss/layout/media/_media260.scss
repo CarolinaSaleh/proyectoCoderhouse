@@ -1,23 +1,183 @@
 @media (max-width:260px) {
     html{
         font-size: 70%;
-    }    
-    .iconos{
-        display: block;
-        size: 30%;
+       
+    // .iconos{
+    //     display: block;
+    //     size: 30%;
+    // }
+    // .menu{
+    //     margin-right: 0;
+    // }
+    // .header-banner{
+    //     font-size: 65%;
+    // }
+    // .elNombre{
+    //     font-size: 1rem;
+    //     margin-left: 0;
+    // }
+    // .coleccion a{
+    //     font-size: 70%;
+    // }  
+    .sectionPrincipal{
+        h1{
+            font-size: 3rem
+        }
     }
-    .menu{
-        margin-right: 0;
+    .lasCards{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 60%;
+        margin-left: .75rem;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .btn-ver-mas{
+            width: 50%;
+            height: 30%;
+        }
+        .corazon input {
+            height: 0;
+            width: 0;
+            margin-left: 70%;
+          }
     }
-    .header-banner{
-        font-size: 65%;
+    .cardsDeTexto{
+        display: column;
+        margin: .90rem;
+        margin-left: 1rem;
+        .cardTexto{
+            margin-bottom: 1.25rem;
+        }
     }
-    .elNombre{
-        font-size: 1rem;
-        margin-left: 0;
-    }
-    .coleccion a{
-        font-size: 70%;
-    }  
+    .cuadradoPrincipal{
+        height: 45rem;
+        width: 260px;
 
+        h2{
+            margin-top: 1rem;
+            font-size: 1.875rem;
+            line-height: 20px; 
+            letter-spacing: 2px;
+            
+            .slide-contenedor {
+                .imagen-slider {
+                    display: flex;
+                    overflow-x: hidden;
+                    width: 100%;
+    
+                    .slides-div {
+                        width: 260px; 
+                    }
+                }
+            
+    }
+    }}
+
+    .containerDeAbajo {
+        display: flex;
+        align-items: center;
+        width: 260px;
+    }
+    .laColumn{
+        justify-content: center;
+        align-items: center;
+        display: column;
+        direction: column;
+    }
+    .cardsDeTextoAbajo {
+        padding: 1rem; 
+    }
+
+    .cardTextoAbajo {
+        width: 100%; 
+        margin: 0.5rem 0;
+    }
+
+    .cardTextoAbajo .elDivDeLaCardDeTextoDeAbajo {
+        display: column;
+        align-items: flex-start
+    }
+
+    .cardTextoAbajo .elDivDeLaCardDeTextoDeAbajo img {
+        width: auto; 
+        height: 2rem; 
+        margin-right: 0.5rem; 
+        margin-bottom: 0.5rem; 
+    }
+
+    .cardTextoAbajo h5 {
+        font-size: 16px; // Reducir el tamaño del título para dispositivos pequeños
+    }
+
+    iframe {
+        width: 100%;
 }
+.newsletter {
+    padding: 1.125rem;
+    margin: 0 auto; // Centrar el contenedor
+    margin-top: 2rem;
+    width: 90%; // Usar un ancho del 90% del contenedor padre
+    max-width: 300px; // Establecer un ancho máximo para dispositivos pequeños
+    height: auto; // Altura automática
+    border-radius: 40px;
+    background: $degradeBackground;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+  
+    h2 {
+      margin-top: .75rem;
+      color: $textoNegro;
+      text-align: center;
+      font-family: $tipoPrincipal;
+      font-size: 24px; // Reducir el tamaño de la fuente para dispositivos pequeños
+      font-weight: 700;
+      letter-spacing: 2px; // Reducir el espaciado de letras para dispositivos pequeños
+      cursor: pointer;
+    }
+  
+    p {
+      margin-top: .85rem;
+      color: $textoNegro;
+      text-align: center;
+      font-family: $tipoPrincipal;
+      font-size: 16px; // Reducir el tamaño de la fuente para dispositivos pequeños
+      font-weight: 400;
+      letter-spacing: 1px; // Reducir el espaciado de letras para dispositivos pequeños
+    }
+  }
+  
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 1rem; // Reducir el relleno para dispositivos pequeños
+  }
+  
+  input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+  }
+  
+  button {
+    border: 0;
+    background: #111;
+    color: $textoBlanco;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+    font-weight: bold;
+  }
+  
+  .sign-up:hover {
+    opacity: 0.8;
+  }
+}}

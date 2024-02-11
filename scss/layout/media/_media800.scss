@@ -6,5 +6,68 @@
         display: block;
         size: auto;
     }
-    
+    .newsletter {
+        padding: 1.125rem;
+        margin: 0 auto; // Centrar el contenedor
+        margin-top: 2rem;
+        width: 90%; // Usar un ancho del 90% del contenedor padre
+        max-width: 300px; // Establecer un ancho máximo para dispositivos pequeños
+        height: auto; // Altura automática
+        border-radius: 40px;
+        background: $degradeBackground;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+      
+        h2 {
+          margin-top: .75rem;
+          color: $textoNegro;
+          text-align: center;
+          font-family: $tipoPrincipal;
+          font-size: 24px; // Reducir el tamaño de la fuente para dispositivos pequeños
+          font-weight: 700;
+          letter-spacing: 2px; // Reducir el espaciado de letras para dispositivos pequeños
+          cursor: pointer;
+        }
+      
+        p {
+          margin-top: .85rem;
+          color: $textoNegro;
+          text-align: center;
+          font-family: $tipoPrincipal;
+          font-size: 16px; // Reducir el tamaño de la fuente para dispositivos pequeños
+          font-weight: 400;
+          letter-spacing: 1px; // Reducir el espaciado de letras para dispositivos pequeños
+        }
+      }
+      
+      .card__form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 1rem; // Reducir el relleno para dispositivos pequeños
+      }
+      
+      input {
+        margin-top: 10px;
+        outline: 0;
+        background: rgb(255, 255, 255);
+        box-shadow: transparent 0px 0px 0px 1px inset;
+        padding: 0.6em;
+        border-radius: 14px;
+        border: 1px solid #333;
+        font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+      }
+      
+      button {
+        border: 0;
+        background: #111;
+        color: $textoBlanco;
+        padding: 0.68em;
+        border-radius: 14px;
+        font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+        font-weight: bold;
+      }
+      
+      .sign-up:hover {
+        opacity: 0.8;
+      }
 }

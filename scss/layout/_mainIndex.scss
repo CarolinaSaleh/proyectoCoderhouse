@@ -243,7 +243,7 @@
 
 
 .cardsDeTextoAbajo{
-    padding: 3rem 8rem;
+    padding: 2rem 6rem;
     .cardTextoAbajo{
         margin: 1.25rem;
         align-items: center;
@@ -274,8 +274,9 @@
     }
 }
 .newsletter{
+    justify-content: center;
+    align-items: center;
     padding: 1.125rem;
-    margin: 0px 200px;
     width: 900px;
     height: 300px;
     border-radius: 40px;
