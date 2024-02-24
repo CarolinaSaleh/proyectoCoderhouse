@@ -286,7 +286,8 @@
   height: 700px;
   flex-shrink: 0;
   background-image: linear-gradient(to left top, #136d6d, #528895, #8aa4b4, #bcc1cd, #e3e3e3);
-  padding: 5rem; }
+  padding: 5rem;
+  margin-bottom: 6rem; }
   .cuadradoPrincipal h2 {
     color: #141414;
     font-family: "Raleway", sans-serif;
@@ -379,8 +380,11 @@
     .cardsDeTextoAbajo .cardTextoAbajo p {
       font-family: "Raleway", sans-serif;
       letter-spacing: .0875rem; }
+  .cardsDeTextoAbajo .elMapa {
+    margin: 4rem; }
 
 .newsletter {
+  margin-top: 6rem;
   justify-content: center;
   align-items: center;
   padding: 1.125rem;
@@ -906,6 +910,16 @@
 footer a.text-body-secondary {
   color: #6c757d !important; }
 
+@media (max-width: 1075px) {
+  html {
+    font-size: 55%; }
+  .iconos {
+    display: block;
+    size: auto; }
+  .newsletter {
+    width: 100%;
+    margin: 0 auto; } }
+
 @media (max-width: 991px) {
   html {
     font-size: 55%; }
@@ -974,7 +988,7 @@ footer a.text-body-secondary {
   .sign-up:hover {
     opacity: 0.8; } }
 
-@media (max-width: 720px) {
+@media (max-width: 775px) {
   .iconos {
     display: block;
     size: auto; }

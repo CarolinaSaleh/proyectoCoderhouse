@@ -1,44 +1,26 @@
 @media (max-width:260px) {
     html{
-        font-size: 70%;
-       
-    // .iconos{
-    //     display: block;
-    //     size: 30%;
-    // }
-    // .menu{
-    //     margin-right: 0;
-    // }
-    // .header-banner{
-    //     font-size: 65%;
-    // }
-    // .elNombre{
-    //     font-size: 1rem;
-    //     margin-left: 0;
-    // }
-    // .coleccion a{
-    //     font-size: 70%;
-    // }  
-    .sectionPrincipal{
-        h1{
-            font-size: 3rem
+        font-size: 70%; 
+        .sectionPrincipal{
+            h1{
+                font-size: 3rem
+            }
         }
-    }
-    .lasCards{
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-        height: 60%;
-        margin-left: .75rem;
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .btn-ver-mas{
-            width: 50%;
-            height: 30%;
-        }
+        .lasCards{
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 60%;
+            margin-left: .75rem;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .btn-ver-mas{
+                width: 50%;
+                height: 30%;
+            }
         .corazon input {
             height: 0;
             width: 0;
@@ -110,7 +92,7 @@
     }
 
     .cardTextoAbajo h5 {
-        font-size: 16px; // Reducir el tamaño del título para dispositivos pequeños
+        font-size: 16px; 
     }
 
     iframe {
@@ -118,11 +100,11 @@
 }
 .newsletter {
     padding: 1.125rem;
-    margin: 0 auto; // Centrar el contenedor
+    margin: 0 auto;
     margin-top: 2rem;
-    width: 90%; // Usar un ancho del 90% del contenedor padre
-    max-width: 300px; // Establecer un ancho máximo para dispositivos pequeños
-    height: auto; // Altura automática
+    width: 90%; 
+    max-width: 300px; 
+    height: auto; 
     border-radius: 40px;
     background: $degradeBackground;
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
@@ -132,9 +114,9 @@
       color: $textoNegro;
       text-align: center;
       font-family: $tipoPrincipal;
-      font-size: 24px; // Reducir el tamaño de la fuente para dispositivos pequeños
+      font-size: 24px; 
       font-weight: 700;
-      letter-spacing: 2px; // Reducir el espaciado de letras para dispositivos pequeños
+      letter-spacing: 2px;
       cursor: pointer;
     }
   
@@ -143,9 +125,9 @@
       color: $textoNegro;
       text-align: center;
       font-family: $tipoPrincipal;
-      font-size: 16px; // Reducir el tamaño de la fuente para dispositivos pequeños
+      font-size: 16px; 
       font-weight: 400;
-      letter-spacing: 1px; // Reducir el espaciado de letras para dispositivos pequeños
+      letter-spacing: 1px;
     }
   }
   
@@ -153,7 +135,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0 1rem; // Reducir el relleno para dispositivos pequeños
+    padding: 0 1rem; 
   }
   
   input {
@@ -164,7 +146,7 @@
     padding: 0.6em;
     border-radius: 14px;
     border: 1px solid #333;
-    font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+    font-size: 14px;
   }
   
   button {
@@ -173,7 +155,7 @@
     color: $textoBlanco;
     padding: 0.68em;
     border-radius: 14px;
-    font-size: 14px; // Reducir el tamaño de la fuente para dispositivos pequeños
+    font-size: 14px; 
     font-weight: bold;
   }
   

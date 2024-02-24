@@ -162,6 +162,7 @@
     flex-shrink: 0;
     background-image:$degradeBackground;
     padding: 5rem;
+    margin-bottom: 6rem;
         h2{
             color:$textoNegro;
             font-family:$tipoPrincipal;
@@ -269,11 +270,13 @@
             letter-spacing: .0875rem;
             
         }
-        
-        
+    }
+    .elMapa{
+        margin: 4rem;  
     }
 }
 .newsletter{
+    margin-top: 6rem;
     justify-content: center;
     align-items: center;
     padding: 1.125rem;

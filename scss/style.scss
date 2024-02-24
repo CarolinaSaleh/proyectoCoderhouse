@@ -1,6 +1,5 @@
 @import "./utilities/variable";
 @import "./utilities/mixins";
-@import "./utilities/function";
 @import "./base/resets";
 @import "./base/typography";
 @import "./components/boostrap";
@@ -13,10 +12,10 @@
 @import "./layout/mainAccesorios";
 @import "./layout/mainConjuntos";
 @import "./layout/footer";
-@import "./utilities/maps";
+@import "./layout/media/media1075";
 @import "./layout/media/media991";
 @import "./layout/media/media800";
-@import "./layout/media/media720";
+@import "./layout/media/media775";
 @import "./layout/media/media468";
 @import "./layout/media/media425";
 @import "./layout/media/media320";
